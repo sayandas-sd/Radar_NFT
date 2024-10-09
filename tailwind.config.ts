@@ -68,9 +68,10 @@ const config: Config = {
                 "backgroundPosition": "-200% 0"
               }
             }
-          }
-	
-
+          },
+		  "compilerOptions": {
+			"types": ["next-themes"]
+		  }
   	}
 	
   },

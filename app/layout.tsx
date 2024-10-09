@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 import Navbar from "@/components/Navbar";
+import { ParticlesDemo } from "@/components/Particle";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,9 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
+        className={`${geistSans.variable} ${geistMono.variable} h-screen w-screen bg-black antialiased`}
       >
         <Navbar />
+        
         {children}
       </body>
     </html>
