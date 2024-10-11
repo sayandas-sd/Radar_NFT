@@ -12,7 +12,7 @@ export function AnimatedSubscribeButtonDemo() {
       subscribeStatus={false}
       initialText={
         <span className="group inline-flex items-center">
-          Subscribe{" "}
+          Get Started{" "}
           <ChevronRightIcon className="ml-1 size-4 transition-transform duration-300 group-hover:translate-x-1" />
         </span>
       }
