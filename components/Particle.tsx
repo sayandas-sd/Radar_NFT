@@ -30,6 +30,15 @@ export function ParticlesDemo() {
         <button className="bg-white text-black mt-18 text-lg px-3 py-2 rounded-xl cursor-pointer">
           Explore Zaffy
         </button>
+
+        <div className="grid grid-cols-2 mt-10">
+          <div>
+            element
+          </div>
+          <div>
+            element
+          </div>
+        </div>
       </div>
     
       <Particles
